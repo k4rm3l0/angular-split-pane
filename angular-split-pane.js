@@ -72,7 +72,7 @@ angular.module('shagstrom.angular-split-pane', [])
 			}
 			element.splitPane();
 		},
-		template: '<div class="split-pane" ng-transclude></div>'
+		template: '<div class="split-pane" height-auto-resizer ng-transclude></div>'
 	};
 })
 .directive('splitPaneComponent', function() {
